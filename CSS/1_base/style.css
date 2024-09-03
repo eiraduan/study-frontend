@@ -1,3 +1,47 @@
-p {
+/* p {
     color: red;
+} */
+
+/* SELETORES id->classe->tag*/
+/*TAG*/
+h4 {
+    font-size: 25px;
+    color: chartreuse;
+    
+}
+
+/*ID*/
+#paragrafo-especial{
+    font-style: italic;
+}
+
+/*CLASSE*/
+.titulo {
+    color: purple;
+    font-size: 45px;
+}
+
+
+
+/* Propriedades de texto */
+.basic-text {
+    font-family: Arial, sans-serif;
+    color: #f23113;
+}
+
+.styled-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.weighty-text {
+    font-weight: bold;
+}
+
+.fancy-text {
+    font-family: verdana;
+    font-size: 50px;
+    color: #848484;
+    text-align: center;
+    text-transform: uppercase;
 }
