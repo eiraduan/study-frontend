@@ -4,10 +4,14 @@
 
 /* SELETORES id->classe->tag*/
 /*TAG*/
+
+body{
+    /* margin-bottom: 1000px; */
+}
+
 h4 {
     font-size: 25px;
-    color: chartreuse;
-    
+    color: chartreuse;    
 }
 
 /*ID*/
@@ -44,4 +48,61 @@ h4 {
     color: #848484;
     text-align: center;
     text-transform: uppercase;
+}
+
+/* HEX */
+.hex-color{
+    color: #aaaaaa;
+}
+
+/* Nome da cor */
+.rgb-color{
+    color: rgb(25, 20, 200);
+}
+
+/* HSL */
+.hsl-color{
+    color: hsl(120, 40%, 80%);
+}
+
+/* RGBA */
+.rgba-color{
+    background-color: rgba(255, 70, 100, 0.1);
+}
+
+.rgba2-color{
+    background-color: rgba(255, 70, 100, 0.4);
+}
+
+.hsla-color{
+    background-color: hsla(190, 40%, 80%, 0.3);
+}
+
+.hsla2-color{
+    background-color: hsla(190, 40%, 80%, 0.8);
+}
+
+/* Estilização de links */
+.simple-link {
+    text-decoration: none;
+    color: #324156;
+}
+
+.fancy-link {
+    text-decoration: line-through; /* riscado */
+    font-style: italic;
+}
+
+.hover-link {
+    text-decoration: none;
+}
+
+/* evento quando passa mouse */
+hover-link:hover {
+    text-decoration: underline;
+    background-color: green;
+}
+
+.bold-link {
+    font-weight: 900;
 }
